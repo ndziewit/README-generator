@@ -53,7 +53,14 @@ const questions = [
     type: "input",
     message: "Now let's have your email",
     name: "email"
-}];
+},
+{
+    type: "list",
+    message: "Your README is now generated! Hit enter to end the program",
+    name: "goodbye",
+    choices: ["This README generator was created by Nicholas Dziewit nicholas.dziewit@gmail.com"]
+}
+];
 
 function runProgram() {
     inquirer
