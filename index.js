@@ -102,7 +102,7 @@ function writeToFile(fileName, data) {
           break;
         default:
       }
-        fileData += "## Reach Me At:\nGithub: https://github.com/";
+        fileData += "## Questions: https://github.com/";
         fileData += `${username}\n`;
         fileData += `Email: ${email}\n`;
 
